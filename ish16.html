@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #ff6b6b, #f7d94c);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ff6b6b;
+}
+
+.project {
+    background-color: #f7d94c;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #ff4c4c;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="Ishwari.jpeg" height="200" width="200" >
+        <p>Welcome to my portfolio! I am a passionate web developer with a love for creating beautiful and functional websites.
+            Hello! I'm Ishwari Varhadi, a passionate web developer with a strong foundation in both front-end and back-end technologies.
+            With a keen eye for design and a love for coding, I strive to create seamless and engaging user experiences.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project 1">
+            <h3>Project-Time Table</h3>
+            <p>It's a project about my college shedule.</p>
+        </div>
+        <div class="project">
+            <h3>Project- to do list</h3>
+            <p>In this I Written list of some to do work.</p>
+        </div>
+        <div class="project">
+            <h3>Project-Html</h3>
+            <p>In this I write some codes of HTML that i learned in college.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Colorful Portfolio</p>
+    </footer>
+</body>
+</html>
