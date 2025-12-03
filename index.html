@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishwari Varhadi - AI & DS Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .gradient-text {
+            background: linear-gradient(to right, #2563eb, #9333ea);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-gray-900">Ishwari<span class="text-blue-600">.</span></span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-gray-600 hover:text-blue-600 transition">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition">About</a>
+                    <a href="#skills" class="text-gray-600 hover:text-blue-600 transition">Skills</a>
+                    <a href="#projects" class="text-gray-600 hover:text-blue-600 transition">Projects</a>
+                    <a href="#contact"
+                        class="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home / Introduction -->
+    <section id="home" class="pt-20 pb-32 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center">
+            <div class="md:w-1/2 mt-10 md:mt-0">
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">Hi, I'm <span
+                        class="gradient-text">Ishwari
+                        Varhadi</span></h1>
+                <p class="text-xl text-gray-600 mb-6">
+                    I am a B.Tech Student (AI & DS) at <strong>Zeal College of Engineering and Research</strong>.
+                </p>
+                <p class="text-lg text-gray-500 mb-8 italic border-l-4 border-blue-500 pl-4">
+                    "Motivated student seeking internship opportunities to apply foundational skills in web development,
+                    data analysis, and machine learning. Passionate about learning new technologies and contributing to
+                    real-world projects."
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#contact"
+                        class="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition shadow-lg">Get
+                        in Touch</a>
+                    <a href="#projects"
+                        class="px-6 py-3 border border-gray-300 text-gray-700 font-medium rounded-lg hover:bg-gray-50 transition">View
+                        Work</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <!-- Profile Image Placeholder -->
+                <div
+                    class="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-tr from-blue-100 to-purple-100 rounded-full flex items-center justify-center border-4 border-white shadow-xl overflow-hidden relative">
+                    <!-- Replace the icon below with your actual image: <img src="your-photo.jpg" class="w-full h-full object-cover"> -->
+                    <i class="fas fa-user text-9xl text-blue-200"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">About Me</h2>
+            <div class="bg-white rounded-2xl shadow-sm p-8 md:p-12">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-y-6 gap-x-12">
+                    <div>
+                        <h3 class="text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1">Name</h3>
+                        <p class="text-lg font-medium text-gray-900">Ishwari Varhadi</p>
+                    </div>
+                    <div>
+                        <h3 class="text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1">Course</h3>
+                        <p class="text-lg font-medium text-gray-900">B.Tech in AI & Data Science</p>
+                    </div>
+                    <div>
+                        <h3 class="text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1">College</h3>
+                        <p class="text-lg font-medium text-gray-900">Zeal College of Engineering</p>
+                    </div>
+                    <div>
+                        <h3 class="text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1">Year</h3>
+                        <p class="text-lg font-medium text-gray-900">Second Year (SY)</p>
+                    </div>
+                    <div>
+                        <h3 class="text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1">Location</h3>
+                        <p class="text-lg font-medium text-gray-900">Dhayari, Pune</p>
+                    </div>
+                    <div>
+                        <h3 class="text-sm uppercase tracking-wider text-gray-500 font-semibold mb-1">Email</h3>
+                        <p class="text-lg font-medium text-blue-600">IshwariVarhadi@gmail.com</p>
+                    </div>
+                </div>
+
+                <!-- Education Timeline from Resume -->
+                <div class="mt-12 border-t pt-8">
+                    <h3 class="text-xl font-bold mb-6">Education</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-center justify-between">
+                            <span class="font-semibold">B.Tech (AI & DS)</span>
+                            <span class="text-gray-500">2028 (Expected)</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="font-semibold">12th Grade (HSC)</span>
+                            <span class="text-gray-500">2024 | Grade: 80%</span>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <span class="font-semibold">10th Grade (SSC)</span>
+                            <span class="text-gray-500">2022 | Grade: 90%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Programming Languages -->
+                <div class="bg-gray-50 rounded-xl p-6 hover:shadow-md transition border border-gray-100">
+                    <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 text-blue-600">
+                        <i class="fas fa-code text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Programming</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Python (ML Scripting)</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>HTML5 & CSS3</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>JavaScript</li>
+                    </ul>
+                </div>
+
+                <!-- Data & AI -->
+                <div class="bg-gray-50 rounded-xl p-6 hover:shadow-md transition border border-gray-100">
+                    <div
+                        class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4 text-purple-600">
+                        <i class="fas fa-brain text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">AI & Data</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Machine Learning Basics</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Prompt Engineering</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Data Analysis</li>
+                    </ul>
+                </div>
+
+                <!-- Web & Cloud -->
+                <div class="bg-gray-50 rounded-xl p-6 hover:shadow-md transition border border-gray-100">
+                    <div
+                        class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4 text-indigo-600">
+                        <i class="fas fa-chart-bar text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Visualization</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Power BI</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Matplotlib</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Data Reporting</li>
+                    </ul>
+                </div>
+
+                <!-- Tools -->
+                <div class="bg-gray-50 rounded-xl p-6 hover:shadow-md transition border border-gray-100">
+                    <div
+                        class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mb-4 text-orange-600">
+                        <i class="fas fa-tools text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Tools</h3>
+                    <ul class="space-y-2 text-gray-600">
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Jupyter Notebook</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>Git & Version Control</li>
+                        <li><i class="fas fa-check-circle text-green-500 mr-2"></i>VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                <!-- Project 1: Data Analysis (Matched to Power BI Skill) -->
+                <div
+                    class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-md transition">
+                    <div class="h-48 bg-blue-50 flex items-center justify-center text-blue-300">
+                        <i class="fas fa-chart-line text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Sales Data Dashboard</h3>
+                        <p class="text-gray-600 mb-4">
+                            Designed an interactive Power BI dashboard to analyze retail sales data. Visualized key
+                            metrics like monthly revenue, top-selling products, and regional performance to aid business
+                            decision-making.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span
+                                class="px-3 py-1 bg-yellow-100 text-yellow-800 text-xs font-semibold rounded-full">Power
+                                BI</span>
+                            <span
+                                class="px-3 py-1 bg-green-100 text-green-800 text-xs font-semibold rounded-full">Excel</span>
+                            <span class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded-full">Data
+                                Viz</span>
+                        </div>
+                        <a href="https://github.com/ishwari593"
+                            class="text-blue-600 font-semibold hover:text-blue-800">View on GitHub &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Web Development (Matched to Web Skills) -->
+                <div
+                    class="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-100 hover:shadow-md transition">
+                    <div class="h-48 bg-purple-50 flex items-center justify-center text-purple-300">
+                        <i class="fas fa-laptop-code text-5xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Personal Portfolio Website</h3>
+                        <p class="text-gray-600 mb-4">
+                            Developed a fully responsive personal portfolio website to showcase academic achievements
+                            and projects. Implemented modern UI/UX principles using HTML, CSS, and Tailwind.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span
+                                class="px-3 py-1 bg-red-100 text-red-800 text-xs font-semibold rounded-full">HTML5</span>
+                            <span
+                                class="px-3 py-1 bg-blue-100 text-blue-800 text-xs font-semibold rounded-full">CSS3</span>
+                            <span
+                                class="px-3 py-1 bg-purple-100 text-purple-800 text-xs font-semibold rounded-full">Tailwind</span>
+                        </div>
+                        <a href="https://github.com/ishwari593"
+                            class="text-blue-600 font-semibold hover:text-blue-800">View on GitHub &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="bg-gray-900 text-white py-16">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+            <p class="text-gray-400 mb-8 max-w-2xl mx-auto">
+                Have a project idea or collaboration in mind? Feel free to reach out!
+            </p>
+
+            <div class="flex justify-center space-x-8 mb-12">
+                <a href="https://www.linkedin.com/in/ishwari-varhadi" target="_blank"
+                    class="text-3xl hover:text-blue-400 transition transform hover:scale-110"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/ishwari593" target="_blank"
+                    class="text-3xl hover:text-gray-400 transition transform hover:scale-110"><i
+                        class="fab fa-github"></i></a>
+                <a href="mailto:IshwariVarhadi@gmail.com"
+                    class="text-3xl hover:text-red-400 transition transform hover:scale-110"><i
+                        class="fas fa-envelope"></i></a>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left max-w-2xl mx-auto mb-12 text-gray-300">
+                <div>
+                    <h4 class="font-bold text-white mb-2">Coding Profiles</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="https://github.com/ishwari593" target="_blank"
+                                class="hover:text-blue-400 flex items-center"><i class="fab fa-github mr-2"></i>
+                                GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/ishwari-varhadi" target="_blank"
+                                class="hover:text-blue-400 flex items-center"><i class="fab fa-linkedin mr-2"></i>
+                                LinkedIn</a></li>
+                        <li><a href="https://leetcode.com/ishwari593" target="_blank"
+                                class="hover:text-yellow-400 flex items-center"><i class="fas fa-code mr-2"></i>
+                                LeetCode</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white mb-2">Resume</h4>
+                    <p class="text-xs text-gray-500 mb-2">Ensure your file is named "Resume.pdf" and placed in the same
+                        folder.</p>
+                    <a href="./Resume.pdf" target="_blank"
+                        class="inline-flex items-center px-4 py-2 bg-blue-600 rounded-md hover:bg-blue-700 transition text-sm text-white font-medium">
+                        <i class="fas fa-download mr-2"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 text-sm text-gray-500">
+                <p>&copy; 2025 Ishwari Varhadi | Designed using HTML/Tailwind</p>
+                <p class="mt-2">Made with <i class="fas fa-heart text-red-500"></i> by an aspiring AI & DS Engineer.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
